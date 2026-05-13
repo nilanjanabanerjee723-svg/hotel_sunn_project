@@ -763,7 +763,7 @@ margin-bottom: 0;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
-    align-items: center;
+    align-items:first baseline;
 }
 .ruller{
     margin: 24px 0;
@@ -784,6 +784,12 @@ margin-bottom: 0;
 }
 .copy2 ul li{
     margin-left: 16px;
+}
+.discover{
+    padding:120px 0;
+}
+.reservations{
+    margin-bottom: 16px;
 }
 
   
