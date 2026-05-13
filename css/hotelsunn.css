@@ -621,7 +621,7 @@ justify-content: space-between;
     flex-wrap: nowrap;
     justify-content: space-between;
     text-align: center;
-    margin-top: 24px;
+    margin-top: 40px;
 }
 .web1{
     width:152px;
@@ -633,8 +633,15 @@ justify-content: space-between;
     width:500px;
 }
 .map {
+    width:820px;
+    height:560px;
     margin-top: 16px;
     margin-right: 24px;
+}
+.map .frame{
+    width:820px;
+    height: 560px;
+    border-radius: 10px;
 }
 .address2 p{
     margin-bottom: 16px;
