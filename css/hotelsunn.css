@@ -16,6 +16,7 @@ li {
 }
 
 a {
+    color: black;
     display: inline-block;
     text-decoration: none;
 
@@ -111,7 +112,7 @@ h1,p {
     position:relative;
     position: fixed;
     width: 100%;
-    /* z-index: 999; */
+    z-index: 999;
 }
 .top_items{
     padding: 20px;
@@ -154,9 +155,6 @@ h1,p {
     padding: 10px 20px;
     border-radius: 50px;
     border: 1px solid white;
-   
-
-
 }
 .book i{
     padding-left: 10px;
@@ -404,6 +402,7 @@ border-radius: 50px;
      background-image: url(../images/well.png);
     background-size: cover;
     background-repeat: no-repeat;
+   
     
 
 }
@@ -449,6 +448,9 @@ border-radius: 50px;
 }
 #taste{
     width: 433px;
+}
+.range a{
+    border-bottom: 1px solid black;
 }
 .cards{
     padding-top: 0;
@@ -525,6 +527,9 @@ color: black;
     flex-wrap: nowrap;
     align-items: center;
     justify-content: space-between;
+}
+.all a{
+    color:black;
 }
 #png{
     margin-top: 32px;
@@ -621,7 +626,7 @@ justify-content: space-between;
     flex-wrap: nowrap;
     justify-content: space-between;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 24px;
 }
 .web1{
     width:152px;
@@ -792,11 +797,18 @@ margin-bottom: 0;
 .copy2 ul li{
     margin-left: 16px;
 }
+.face ul li a{
+    color:white;
+}
 .discover{
     padding:120px 0;
 }
 .reservations{
     margin-bottom: 16px;
+}
+.address{
+    margin-bottom: 16px;
+    font-size: 16px;
 }
 
   
